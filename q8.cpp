@@ -3,7 +3,7 @@
 using namespace std;
 char CaesarShift(char c, int k);
 
-cout << "But wait! there is something inside the flag- a golden shell. The sound produced from this shell will erase the memory of the dog, so it won't chase back to Arthur once it wakes up from the sleep.\n";
+cout << "But wait! there is something hidden inside the flag- a golden shell. The sound produced from this shell will erase the memory of the dog, so it won't chase back to Arthur once it wakes up from the sleep.\n";
 cout << "The only way to activate the shell is by decoding it. Help Arthur decode the shell.\n" << endl;
 
 output q8(void)
