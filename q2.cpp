@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int q2(void)
 {
     cout<< "Congratulation on completing first level. Arthur, with additional health bonus on his backpack, sets out on the path that leads him into the dense jungle. "<< endl;
     cout<< "The jungle is so thick that not even the light passes through it. After walking continuously for eight hours, he finally gets to see the rising sun.\n";
@@ -48,5 +48,5 @@ int main()
         }
     }
         cout<<"\n\n Correct!\nRemember the passcode as you might need it later!!"<<endl;
-    return 0;
+    return 100;
 }
