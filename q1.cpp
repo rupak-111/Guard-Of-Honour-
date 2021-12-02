@@ -1,7 +1,7 @@
 #include "head.h"
 using namespace std;
 
-output q1(void)
+void q1(void)
 {
     cout<< "Arthur is set out on this treachorous journey to get back the sword of the king. As soon as he crosses the turbulent river, he is stopped by a human-sized cockroach.";
     cout << "\nArthur can only kill the cockroach by beating it on RockScissorsPaper Game.";
@@ -85,7 +85,6 @@ output q1(void)
             }
         }
     }
-    out.bonus_point=bonus;
+    Bonus=bonus;
     cout<<"You gain "<<bonus<<" point in this stage\n";
-    return out;
 }
