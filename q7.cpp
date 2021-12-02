@@ -18,7 +18,6 @@ output q7(void)
     if (random == 1)
     {
         cout << "\nQ.  (-5 x 4 + 47) / 3 + 1\n\n    = ";
-        //display this for 4 seconds and go blank
         while (true)
         {
             if (cin >> answer)
@@ -40,7 +39,6 @@ output q7(void)
     if (random == 2)
     {
         cout << "\nQ.  (5 x 1+ 2 x 3 - 7 x 0 + 11) / 2\n\n   = ";
-        //display this for 4 seconds and go blank
         cin >> answer;
 
         while (true)
@@ -63,7 +61,6 @@ output q7(void)
     if (random == 3)
     {
         cout << "\nQ.   1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 0\n\n   = ";
-        //display this for 4 seconds and go blank
         cin >> answer;
 
        while (true)
