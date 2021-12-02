@@ -1,14 +1,19 @@
 #include "head.h"
 using namespace std;
-
+	
 output q10(void)
 {
 	output out = {};
 	int choose;
-	cout << "Now, you discovered something is under ground. But if you want to get it, you need to buy somethings to mine it out." << endl;
-	cout << "You now have two options to do,\n1. spend all your bonus point to get that thing\n2. Give up and leave it alone\n";
-	cout << "What is under ground is unknown, it may brings the luck to you, or a nightmare " << endl;
-	cout << "So, what is your options? (type '1' or '2' )";
+	cout << "Congratulations! Arthur is almost there to the monster's den. After crossing the lake, he walks upward on the steep hill also known as Devil's Landing.\n";
+	cout << "There on the path, he discovers something shining underneath the ground. He tries his best to remove the rock from the ground, but the rock is just too heavy for him.\n";
+	cout << "He realizes that in order to access the shining object, he needs a mining tool, and the only way to get it is by trading all of his bonus points with the dark cloud that is hovering on top of him.\n";
+	cout << "He has two options, either to spend all of his bonus points to get the mining tool or return back emptyhanded to the king.\n";
+	cout << "But he does not know what is under the ground. It may be something really valuable, like a mining tool, or possibly a trap." << endl;
+	cout << "Arthur is confused, anxious, and worried. He does not know what to do. After thinking for a moment, he remembers his vow with the king to get back his sword at any cost.\n";
+	cout << "So, he trades his every bonus point with the cloud to get the weapon. As Arthur does not know what is underneath the ground, he needs your help to find the weapon:\n";
+	cout << "Try your luck and press either: 'key 1' or 'key 2'\n" << endl;
+	
 	cin >> choose;
 	if (choose == 1)
 	{
