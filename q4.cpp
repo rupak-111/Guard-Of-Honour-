@@ -1,14 +1,14 @@
 #include "head.h"
 using namespace std;
-cout<< "Arthur successfully crosses the volcano. He thanks the vulture and departs on his journey. The path slowly leads to a deserted valley.\n";
-cout<< "Arthur completes the deserted valley walking continuously for 9 hours, but suddenly the path descended down to a swampy forest leading to a cave.\n";
-cout<< "As soon as he enters the cave, the door of the cave shuts down! After thirty minutes, the darkness slowly starts to lighten up, and Arthur sees something on the wall, a puzzle.\n";
-cout<< "He cannot return back as the door is closed. The only way to survive is to move forward, and in order to do it, he has to solve the puzzle as suggested.\n";
-cout<< "Help Arthur solve the puzzle.\n\n\n"
-
 
 struct output q4(void)
 {
+    cout<< "Arthur successfully crosses the volcano. He thanks the vulture and departs on his journey. The path slowly leads to a deserted valley.\n";
+    cout<< "Arthur completes the deserted valley walking continuously for 9 hours, but suddenly the path descended down to a swampy forest leading to a cave.\n";
+    cout<< "As soon as he enters the cave, the door of the cave shuts down! After thirty minutes, the darkness slowly starts to lighten up, and Arthur sees something on the wall, a puzzle.\n";
+    cout<< "He cannot return back as the door is closed. The only way to survive is to move forward, and in order to do it, he has to solve the puzzle as suggested.\n";
+    cout<< "Help Arthur solve the puzzle.\n\n\n"
+    
     int x, y;
     output out = {0};
     srand(time(0));
