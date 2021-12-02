@@ -42,8 +42,8 @@ games include
 8. decoding
   In this stage, the user needs to refer to some hint provided earlier, and decode the secret sentence.
   
-9. matching
-  The player needs to do matching to obtain the demo information.
+9. Sudoku solving
+  The player needs to solve sudoku to obtain the demo information.
   
 10.gambling element/ special events
   During the adventure, the player might have a chance to tackle some events, while different choices the player chooses, may lead to a completely different ending.
