@@ -15,7 +15,7 @@ bool Y7 = false;
 bool Z8 = false;
 bool M9 = false;
 
-output q9(void)
+void q9(void)
 {
 	cout << "Congratulations for making the dog asleep and erasing its recent memory about Arthur. After three days of starting this journey, Arthur is very close to the king's sword.\n";
 	cout << "As Arthur moves forward, he sees a giant lake. The abnormal thing about the lake is it does not contain water; it is just filled with boiling blood! Arthur cannot swim accross this boiling lake.\n";
@@ -31,7 +31,6 @@ output q9(void)
 		AnswerChecking();
 		Show();
 	}
-	return out;
 }
 
 
