@@ -4,7 +4,7 @@ using namespace std;
 
 output q7(void)
 {
-    output out={};
+    output out;
     srand(time(0));
     int random, answer;
     random = (rand() % 3) + 1;
@@ -82,7 +82,5 @@ output q7(void)
         }
         cout << "Congratulations! You got the correct answer.\n\n";
     }
-    out.int=answer;
-    cout<<"You get answer of "<< answer <<" in this stage"<<endl;
     return out;
 }
