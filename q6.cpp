@@ -8,7 +8,6 @@ output q6()
     cout<< "After sharing his experience of the journey with them, he normally strolls around the village. After walking for 10 minutes, he sees some children playing under a tree.\n";
     cout<< "Out of curiousity, he decides to join them. As Arthur does not know how to play this game, he seeks out for your help to complete the game. \n";
 
-    output out = {};
     int bounus =0;
     srand(time(0));
     
@@ -65,7 +64,7 @@ output q6()
                 cout << "\nHe plays football.";
                 cout << "\nHe is 34 years old.";
                 cout << "\nHe is currently playing for Paris in France." << endl;
-                return out;
+                break;
             }
             else
             {
@@ -91,7 +90,7 @@ output q6()
                 cout << "Rabbit loves eating carrot.";
                 cout << "\nCarrot is often used for making soup.";
                 cout << "\nCarrot is a root vegetable" << endl;
-                return out;
+                break;
             }
             else
             {
@@ -117,7 +116,7 @@ output q6()
                 cout << "\nAristotle is the pioneer of Metaphysics- abstract theory with no basis in reality.";
                 cout << "\nAristotle was the first person to categorize animal into different hierarchy.";
                 cout << "\nAristotle established a school of philosophy called Lyceum in Macedonia, Greece." << endl;
-                return out;
+                break;
             }
             else
             {
@@ -135,7 +134,7 @@ output q6()
     out.int=input;
     if(input==2||input==6||input==8)
         bonus+=20;
-    out.bonus_point=bonus;
+    Bonus+=bonus;
     cout<<"You answer key in this stage is "<<input<<endl;
-    return out;
+    return input;
 }
