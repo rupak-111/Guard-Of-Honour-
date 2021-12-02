@@ -1,31 +1,33 @@
-#include<iostream>
+#include"head.h"
 using namespace std;
-#include <unistd.h>
-#include <ctime>
 
-int main()
+
+output q2(void)
 {
+    output out={};
     srand(time(0));
     int random, answer;
     random = (rand() % 3) + 1;
     cout << "In this level, you have to remain very focus while tackling the challenge!!\n\n";
-    sleep(3);
+
     cout << "Here comes the question: \n\n";
-    sleep(2);
+
     cout << "Simplify the following equation:\n";
-    sleep(2);
+
 
     if (random == 1)
     {
         cout << "\nQ.  (-5 x 4 + 47) / 3 + 1\n\n    = ";
         //display this for 4 seconds and go blank
-        cin >> answer;
-
-        while (answer != (int)answer)
+        while (true)
         {
-            cout << "Please enter an integer. \n\n";
-            cin >> answer;
+            if (cin >> answer)
+                break;
+            cout << "Please enter an integer. \n";
+            std::cin.clear();
+            std::cin.ignore(80, '\n');
         }
+
 
         while (answer != 10)
         {
@@ -41,10 +43,13 @@ int main()
         //display this for 4 seconds and go blank
         cin >> answer;
 
-        while (answer != (int)answer)
+        while (true)
         {
-            cout << "Please enter an integer. \n\n";
-            cin >> answer;
+            if (cin >> answer)
+                break;
+            cout << "Please enter an integer. \n";
+            std::cin.clear();
+            std::cin.ignore(80, '\n');
         }
 
         while (answer != 11)
@@ -61,10 +66,13 @@ int main()
         //display this for 4 seconds and go blank
         cin >> answer;
 
-        while (answer != (int)answer)
+       while (true)
         {
-            cout << "Please enter an integer. \n\n";
-            cin >> answer;
+            if (cin >> answer)
+                break;
+            cout << "Please enter an integer. \n";
+            std::cin.clear();
+            std::cin.ignore(80, '\n');
         }
 
         while (answer != 45)
@@ -74,5 +82,7 @@ int main()
         }
         cout << "Congratulations! You got the correct answer.\n\n";
     }
-    return 0;
+    out.int=answer;
+    cout<<"You get answer of "<< answer <<" in this stage"<<endl;
+    return out;
 }
