@@ -1,6 +1,6 @@
 Project name:   GUARD-OF-HONOUR
 This team has two members: KOIRALA Rupak, 3035729966, Computer Engineering
-                         : Wan Kwong Fai, 3035780142, Computer Engineering
+                                  : Wan Kwong Fai, 3035780142, Computer Engineering
                          
                          
 
