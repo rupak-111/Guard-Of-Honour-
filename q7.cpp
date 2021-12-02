@@ -3,7 +3,8 @@ using namespace std;
 cout << "Arthur has already completed 60 percent of the journey. Yay!!! Now he leaves the village and starts to walk towards his destination.\n";
 cout << "Suddenly, the weather changes and a heavy rainfall is started. Despite poor visibility, Arthur continues to walk ahead, but then he suddenly stops. A monstrous five-headed bulldog with the size of an elephant is staring at him angrily as if it is ready to attack Arthur at any second.\n";
 cout << "But a weakness of this dog is that it is blind, so Arthur doesn't move and stays quiet. After remaining idle for almost an hour, he sees something on the dog's neck./n";
-cout << "He focuses his vision on it. It says \" Answer this question if you want to make this dog asleep. \" Help Arthur to make the dog asleep.\n\n" << endl;
+cout << "He focuses his vision on it. It is a flag, and it flag says \" Answer this question if you want to make this dog asleep. \"\n";
+cout << "Help Arthur to make the dog fall asleep.\n\n" << endl;
 
 output q7(void)
 {
