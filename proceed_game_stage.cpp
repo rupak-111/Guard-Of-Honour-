@@ -8,11 +8,11 @@ output proceed_game_stage(int gamenumber)
 
 	switch (gamenumber)
 	{
-		//case 1:		out=q1();break; 
+		case 1:		out=q1();break; 
 		case 2:		out=q2(); break; 
 		case 3:		out=q3(); break;
 		case 4:		out=q4(); break;
-		//case 5:		out=q5(); break;
+		case 5:		out=q5(); break;
 		case 6:		out=q6(); break;
 		case 7:		out=q7(); break;
 		case 8:		out=q8(); break;
