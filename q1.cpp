@@ -85,6 +85,6 @@ void q1(void)
             }
         }
     }
-    Bonus=bonus;
+    Bonus+=bonus;
     cout<<"You gain "<<bonus<<" point in this stage\n";
 }
