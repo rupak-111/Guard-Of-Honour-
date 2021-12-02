@@ -1,9 +1,8 @@
 #include"head.h"
 using namespace std;
 
-output q5(void)
+void q5(void)
 {
-    output out = {};
     int answer;
     char input;
     string s;
@@ -46,6 +45,5 @@ output q5(void)
             cout << "Think again. You got it wrong. Please try again before the wizard eats you up.\n";
         }
              cout << "Correct. You have successfully beaten the wizard. Get ready for the next adventure.\n";
-     return out;
   }
 
