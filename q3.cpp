@@ -90,6 +90,8 @@ output q3(void)
 	}
 	cout << "B.Centrifugal force, the four fundamental force are: Strong nuclear force, Weak nuclear force, electromagnetic force and gravitation\n";
 
-
+	out.String="DCAB";
+	out.bonus_point=score*15;
+	cout<<"You get "<<score*15<<" bonus point here and the key for this stage is \"DCAB\"";
 	return out;
 }
