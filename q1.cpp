@@ -1,6 +1,10 @@
 #include "head.h"
 using namespace std;
 
+cout<< "Arthur is set out on this treachorous journey to get back the sword of the king. As soon as he crosses the turbulent river, he is stopped by a human-sized cockroach.";
+cout << "\nArthur can only kill the cockroach by beating it on RockScissorsPaper Game.";
+cout<<"\nHelp Arthur to win this level. Remember, the faster you beat the cockroach, the more health bonus Arthur gets:"; 
+
 output q1(void)
 {
     output out={};
