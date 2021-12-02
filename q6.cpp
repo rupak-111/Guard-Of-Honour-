@@ -1,6 +1,9 @@
 #include "head.h"
 using namespace std;
-
+cout<< "Many congrats to you! Arthur was able to answer all the questions and kill the creature. He, then successfully comes out of the cave but due to his lack of energy, he faints out.\n";
+cout<< "Arthur was luckily found by a group of boar hunters. They carefully lift him up and take him back to their village. After passing out for a day Arthur wakes up surrounded by humans.\n";
+cout<< "After sharing his experience of the journey with them, he normally strolls around the village. After walking for 10 minutes, he sees some children playing under a tree.\n";
+cout<< "Out of curiousity, he decides to join them. As Arthur does not know how to play this game, he seeks out for your help to complete the game. \n";
 
 output q6()
 {
@@ -68,7 +71,8 @@ output q6()
                 cout << "\nLionel Messi was born in Argentina, a country which is rich in silver (argentum).";
                 cout << "\nHe plays football.";
                 cout << "\nHe is 34 years old.";
-                cout << "\nHe is currently playing for Paris in France." << endl;
+                cout << "\nHe is currently playing for Paris in France.";
+                cout << "\nArthur cannot leave the game without getting it correct. So, please try again to help him get a correct answer." << endl               
             }
             m1 = true;
         }
@@ -93,7 +97,8 @@ output q6()
                 cout << "Carrot has high amount of Vitamin A." << endl;
                 cout << "Rabbit loves eating carrot.";
                 cout << "\nCarrot is often used for making soup.";
-                cout << "\nCarrot is a root vegetable" << endl;
+                cout << "\nCarrot is a root vegetable.";
+                cout << "\nArthur cannot leave the game without getting it correct. So, please try again to help him get a correct answer." << endl;
             }
             m2 = true;
         }
@@ -118,7 +123,9 @@ output q6()
                 cout << "\nAristotle was born in Ancient Greece.";
                 cout << "\nAristotle is the pioneer of Metaphysics- abstract theory with no basis in reality.";
                 cout << "\nAristotle was the first person to categorize animal into different hierarchy.";
-                cout << "\nAristotle established a school of philosophy called Lyceum in Macedonia, Greece." << endl;
+                cout << "\nAristotle established a school of philosophy called Lyceum in Macedonia, Greece.\n";
+                cout << "Arthur cannot leave the game without getting it correct. So, please try again to help him get a correct answer.\n";<< endl;
+                
             }
             m3 = true;
         }
