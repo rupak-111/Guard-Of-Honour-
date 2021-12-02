@@ -1,5 +1,9 @@
 #include "head.h"
 using namespace std;
+cout<< "Arthur successfully crosses the volcano. He thanks the vulture and departs on his journey. The path leads to a deserted valley.\n";
+cout<< "Arthur completes the deserted valley walking continuously for 9 hours. The path quickly descended down to a swampy forest leading to a cave.\n";
+cout<< "As soon as he enters the cave, the door of the cave shuts down! The darkness slowly lightens up, and Arthur sees something on the wall, a puzzle.\n";
+cout<< "He cannot return back as the door is closed. The only way to survive is to move forward, and in order to do it, he has to solve the puzzle as suggested.";
 
 
 struct output q4(void)
