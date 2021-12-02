@@ -5,12 +5,12 @@ output q10(void)
 {
 	output out = {};
 	int choose;
-	cout << "Congratulations! Arthur is almost there to the monster's den. After crossing the lake, he walks upward on the steep hill also known as Devil's Landing.\n";
+	cout << "Congratulations! Arthur is very close to his destination. After crossing the lake, he walks upward on the steep hill also known as Devil's Landing.\n";
 	cout << "There on the path, he discovers something shining underneath the ground. He tries his best to remove the rock from the ground, but the rock is just too heavy for him.\n";
 	cout << "He realizes that in order to access the shining object, he needs a mining tool, and the only way to get it is by trading all of his bonus points with the dark cloud that is hovering on top of him.\n";
 	cout << "He has two options, either to spend all of his bonus points to get the mining tool or return back emptyhanded to the king.\n";
-	cout << "But he does not know what is under the ground. It may be something really valuable, like a mining tool, or possibly a trap." << endl;
-	cout << "Arthur is confused, anxious, and worried. He does not know what to do. After thinking for a moment, he remembers his vow with the king to get back his sword at any cost.\n";
+	cout << "But he also does not know what is under the ground. It may be something really valuable, like a mining tool, or can possibly be a trap." << endl;
+	cout << "Arthur is confused, anxious, as well as worried. He does not know what to do. After thinking for a moment, he remembers his vow with the king to get back his sword at any cost.\n";
 	cout << "So, he trades his every bonus point with the cloud to get the weapon. As Arthur does not know what is underneath the ground, he needs your help to find the weapon:\n";
 	cout << "Try your luck and press either: 'key 1' or 'key 2'\n" << endl;
 	
