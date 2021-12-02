@@ -2,10 +2,6 @@
 using namespace std;
 
 char list[82] = { "UVW7ZSMTX72XVU9Z51891W26V7U9S32VYW6868Y1MW342254ZXUSMYVYM31T68WSXZ95ZYU4W3Z67VT1M" };
-cout << "Congratulations for making the dog asleep and erasing its recent memory about Arthur. After three days of starting this journey, Arthur is very close to the king's sword.\n";
-cout << "As Arthur moves forward, he sees a giant lake. The abnormal thing about the lake is it does not contain water; it is just filled with boiling blood! Arthur cannot swim accross this boiling lake.\n";
-cout << "So he looks around to find something helpful to him. To his surprise, he finds an old boat. He immediately jumps onto it, but as he tries to start the engine, he realises that the engine only starts after solving a sudoku question.\n";
-cout << "Help Arthur solve the sudoku so he can start the engine and cross the deadly lake.\n" << endl;
 
 void AnswerChecking(void);
 void Show(void);
@@ -21,6 +17,11 @@ bool M9 = false;
 
 output q9(void)
 {
+	cout << "Congratulations for making the dog asleep and erasing its recent memory about Arthur. After three days of starting this journey, Arthur is very close to the king's sword.\n";
+	cout << "As Arthur moves forward, he sees a giant lake. The abnormal thing about the lake is it does not contain water; it is just filled with boiling blood! Arthur cannot swim accross this boiling lake.\n";
+	cout << "So he looks around to find something helpful to him. To his surprise, he finds an old boat. He immediately jumps onto it, but as he tries to start the engine, he realises that the engine only starts after solving a sudoku question.\n";
+	cout << "Help Arthur solve the sudoku so he can start the engine and cross the deadly lake.\n" << endl;
+	
 	output out = {};
 	cout << "You are now going to solve a sudoku\nThe sudoku is as follows:\n";
 	Show();
@@ -174,7 +175,7 @@ void AnswerChecking(void)
 			cout << "Sorry, you get wrong, try again\n";
 		break;
 	default:
-			cout << "The character "<<var<< " don't exist, try a correct one\n";
+			cout << "The character "<<var<< " doesn't exist, try a correct one\n";
 		break;
 	}
 }
