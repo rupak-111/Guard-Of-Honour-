@@ -1,15 +1,17 @@
 #include "head.h"
 using namespace std;
-cout<< "Many congrats to you! Arthur was able to answer all the questions and kill the creature. He, then successfully comes out of the cave but due to his lack of energy, he faints out.\n";
-cout<< "Arthur was luckily found by a group of boar hunters. They carefully lift him up and take him back to their village. After passing out for a day Arthur wakes up surrounded by humans.\n";
-cout<< "After sharing his experience of the journey with them, he normally strolls around the village. After walking for 10 minutes, he sees some children playing under a tree.\n";
-cout<< "Out of curiousity, he decides to join them. As Arthur does not know how to play this game, he seeks out for your help to complete the game. \n";
 
 output q6()
-{
+{    
+    cout<< "Many congrats to you! Arthur was able to answer all the questions and kill the creature. He, then successfully comes out of the cave but due to his lack of energy, he faints out.\n";
+    cout<< "Arthur was luckily found by a group of boar hunters. They carefully lift him up and take him back to their village. After passing out for a day Arthur wakes up surrounded by humans.\n";
+    cout<< "After sharing his experience of the journey with them, he normally strolls around the village. After walking for 10 minutes, he sees some children playing under a tree.\n";
+    cout<< "Out of curiousity, he decides to join them. As Arthur does not know how to play this game, he seeks out for your help to complete the game. \n";
+
     output out = {};
     int bounus =0;
     srand(time(0));
+    
     cout << "You will be provided with four words describing the characteristics of the answer. You will need to identify the potential answer from the options given below: \n" << endl;
     cout << "The possible answers are as follows: (\nNote: If you think the answer is Raddish, press: Key 5\n)" << endl;
     cout << " 1 - Rafael Nadal           2 - Lionel Messi                3 - Pele\n";
