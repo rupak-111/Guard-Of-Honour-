@@ -1,7 +1,7 @@
 #include "head.h"
 using namespace std;
 	
-output q10(void)
+void q10(void)
 {
 	output out = {};
 	int choose;
@@ -12,11 +12,20 @@ output q10(void)
 	cout << "But he also does not know what is under the ground. It may be something really valuable, like a mining tool, or can possibly be a trap." << endl;
 	cout << "Arthur is confused, anxious, as well as worried. He does not know what to do. After thinking for a moment, he remembers his vow with the king to get back his sword at any cost.\n";
 	cout << "So, he trades his every bonus point with the cloud to get the weapon. As Arthur does not know what is underneath the ground, he needs your help to find the weapon:\n";
-	cout << "Try your luck and press either: 'key 1' or 'key 2'\n" << endl;
+	cout << "Try your luck and press either: 'key 1'(for using all your bonus point to chase) or 'key 2'(give up)\n" << endl;
 	
-	cin >> choose;
+	while(true)
+	{
+		if(cin>>choose)
+			if(choose==1||choose==2)
+				break;
+		cout<<"Press key 1 or key 2 only for your choose\n";
+		std::cin.clear();
+            std::cin.ignore(80, '\n');
+	}
 	if (choose == 1)
 	{
+		bonus=0;
 		srand(time(0));
 		int random = rand() % 5+ 1;
 		switch (random)
@@ -25,23 +34,24 @@ output q10(void)
 			cout << "It is empty under the ground, or is just so deep that you can not mine it.";
 			break;
 		case 2:
-			cout << "You find out a treasure, it contains 20 bonus point inside!";
+			cout << "You find out a treasure, it contains 200 bonus point inside!";
+			bonus+=200;
 			break;
 		case 3:
 			cout << "When you are mining, earthquake suddenly happened, and you lost one life here.";
+			live-=1;
 			break;
 		case 4:
 			cout << "You find a magical fruit here, and after you eat that fruits, you gain one more life. ";
+			live+=1;
 			break;
 		case 5:
 			cout << "You find a box here, and inside this box, only have a piece of paper. \n That paper, only have one sentence on it. \n \"Before meeting the Monsters, you need to finish 9 different levels. And please remember one thing, the answer in each stage maybe useful for beating the Monster\"";
 			break;
 		}
-		return out;
 	}
 	else
 	{
-		cout << "It is not worth to spend time on that unknown box, we have no such time to waste now.";
-		return out;
+		cout << "It is not worth to spend time and all the bonus point on that unknown box, we have no such time to waste now.";
 	}
 }
