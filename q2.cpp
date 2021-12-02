@@ -4,7 +4,11 @@ using namespace std;
 
 int main()
 {
-    cout<< "In this level you have to find the key of the door by adding all the numbers present in the figure:\n\n";
+    cout<< "Congratulation on completing first level. Arthur, with additional health bonus on his backpack, sets out on the path that leads him into the dense jungle. "<< endl;
+    cout<< "The jungle is so thick that not even the light passes through it. After walking continuously for eight hours, he finally gets to see the rising sun.\n";
+    cout<< "But suddenly his leg is trapped by a monstrous vein and he is swung upside down 60 meters above the ground." << endl;
+    cout<< "The only way to get Arthur safe on the ground is to answer the question written on the stem of the vein which is also supposed to be the passcode of the monste'rs den."<<endl;
+    cout<< "Help Arthur to unlock himself from the vein: \n\n";
     int answer;
        
         cout << "\n                  3  4\n                2      5  ";
