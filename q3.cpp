@@ -1,7 +1,7 @@
 #include"head.h"
 using namespace std;
 
-output q3(void)
+string q3(void)
 {
 	cout<< "Arthur is very grateful for your help in saving his life. Now as he marches ahead, there is a gigantic explosion of volcano and the path is filled with boiling lava, which is impossible to cross by walking."<<endl;
 	cout<< "Arthur shouts out in desparation. Luckily, his voice is heard by a vulture. The vulture descends down to see Arthur in complete sadness.\n";
@@ -10,7 +10,6 @@ output q3(void)
 	
 	int score = 0,times;
 	char ans;
-	output out = {};
 	cout << "For each question,you will have 4 options to choose. " << endl;
 	cout << "For example, here is an sample question\n" << endl;
 	cout << "Q. Which of the following is correct?" << endl;
@@ -95,8 +94,8 @@ output q3(void)
 	}
 	cout << "B.Centrifugal force, the four fundamental force are: Strong nuclear force, Weak nuclear force, electromagnetic force and gravitation\n";
 
-	out.String="DCAB";
-	out.bonus_point=score*15;
+	string q3ans="DCAB";
+	Bonus+=score*15;
 	cout<<"You get "<<score*15<<" bonus point here and the key for this stage is \"DCAB\"";
-	return out;
+	return q3ans;
 }
