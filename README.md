@@ -48,7 +48,7 @@ games include
 10.gambling element/ special events
   During the adventure, the player might have a chance to tackle some events, while different choices the player chooses, may lead to a completely different ending.
   
-11. finishing coding
+11. Finishing coding
   In this stage, the user needs to apply their programming skills to finish a coding exercise.
 
 
