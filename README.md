@@ -34,11 +34,11 @@ games include
 6. find similarity
   There will be a list of words on the screen and the player need to find the commonplace between these elements element.
   
-7. counting number
-  The screen will show the additions and subtractions many times, and the player needs to do a fast calculation to finish this task.
+7. Solving mathematics equations
+  The screen will show different mathematical questions everytime, and the player needs to do a fast calculation to finish this task.
   
 8. decoding
-  In this stage, the user needs to refer to some hint provide and decode the secret sentence.
+  In this stage, the user needs to refer to some hint provided earlier, and decode the secret sentence.
   
 9. matching
   The player needs to do matching to obtain the demo information.
