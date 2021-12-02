@@ -1,5 +1,5 @@
 #include "head.h"
-#define TEXT "This is the message need to be decode"
+#define TEXT "WELCOME"
 using namespace std;
 char CaesarShift(char c, int k);
 
