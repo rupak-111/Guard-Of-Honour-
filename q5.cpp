@@ -1,7 +1,7 @@
 #include"head.h"
 using namespace std;
 
-output q7(void)
+output q5(void)
 {
     output out = {};
     int answer;
