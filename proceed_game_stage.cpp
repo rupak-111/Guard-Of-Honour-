@@ -1,11 +1,15 @@
 #include "head.h"
 using namespace std;
 
-output proceed_game_stage(int gamenumber)
+void proceed_game_stage(int gamenumber)
 {
+	int time_bonus;
 	output out = {};
 	time_t before = time(0);
-
+	if (bonus_double)
+	{
+		cout<<"You active the bonus double chance\n";
+	}
 	switch (gamenumber)
 	{
 		case 1:		out=q1();break; 
@@ -22,11 +26,23 @@ output proceed_game_stage(int gamenumber)
 	time_t after = time(0);
 	double time_used=difftime(after, before);
 	cout <<"\ntime use in this stage is "<<time_used << " seconds. " << endl;
+	if(time_used<30)
+		bonus=50;
+	else if(time_used<60)
+		bonus=30;
+	else if(time_used<90)
+		bonus=10;
+	else
+	{
+		cout<<"Since you have waste a lot of time in this level, you lose a live"
+		live-=1;
+	}
 	if (bonus_double)
 	{
-		//do sth
+		bonus*=2;
 		bonus_double = false;
 	}
-	return out;
+	cout<<"In this level, you gain time reward bonus point "<<bonus<<endl;
+	Bonus+=bonus;
 }
 
