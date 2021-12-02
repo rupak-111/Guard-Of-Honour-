@@ -1,6 +1,11 @@
 #include"head.h"
 using namespace std;
 
+cout<< "Arthur is very grateful for your help in saving his life. Now as he marches ahead, there is a gigantic explosion of volcano and the path is filled with boiling lava, which is impossible to cross by walking."<<endl;
+cout<< "Arthur shouts out in desparation. Luckily, his voice is heard by a vulture. The vulture descends down to see Arthur in complete sadness.\n";
+cout<<" After hearing his story, the vulture offers Arthur to give him a ride on its back but on one condition:"<<endl;
+cout<< "Arthur has to complete every challenge imposed by the vulture. Help Arthur solve the problems imposed by the vulture to help him escape the lava.\n\n";
+
 output q3(void)
 {
 	int score = 0,times;
