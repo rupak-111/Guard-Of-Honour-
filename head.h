@@ -11,12 +11,14 @@ struct input {
     int health;
 
 };
-int maze(void);
+
 struct output {
-    //union answer {string, int, double};
-    double Time;
+    char Char;
+    string String;
+    double Double;
+    int Int;
     int bonus_point;
-    int health;
+
 };
 output proceed_game_stage(int gamenumber);
 output q1(void);
