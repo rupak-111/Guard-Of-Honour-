@@ -2,7 +2,7 @@
 using namespace std;
 
 
-output q2(void)
+output q7(void)
 {
     output out={};
     srand(time(0));
