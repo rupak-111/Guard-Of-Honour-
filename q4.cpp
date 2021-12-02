@@ -1,7 +1,7 @@
 #include "head.h"
 using namespace std;
 
-struct output q4(void)
+Q4 output q4(void)
 {
     cout<< "Arthur successfully crosses the volcano. He thanks the vulture and departs on his journey. The path slowly leads to a deserted valley.\n";
     cout<< "Arthur completes the deserted valley walking continuously for 9 hours, but suddenly the path descended down to a swampy forest leading to a cave.\n";
@@ -31,7 +31,8 @@ struct output q4(void)
         cout << "What is the coordinates of 'B' ?  type in x_coordinate and y_coordinate: ";
         cin >>xans >> yans;
     } while (xans != x || yans != y);
+    Q4 ans={xans,yans}
     cout << "You answer correctly, the answer of coordinates are " << x <<" and " << y<<endl;
-    return out;
+    return ans;
 }
 
