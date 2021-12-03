@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	cout << "Welcome to this game. It is an adventurous game. The story plot- the king's valuable as well as the magical sword is stolen by a demon, and nobody is successful to get back the sword to the king\n.";
+	cout << "Welcome to this adventurous game. The story plot of this game: the king's valuable as well as the magical sword is stolen by a demon, and nobody is successful to get back the sword to the king\n.";
 	cout << "Now king trusts Arthur to get it back. Arthur is getting prepared to set out on the journey to get back the king's sword, but he does not have any idea, or what he will encounter about the journey because those who tried, nobody came back alive.\n";
 	cout <<  "Arthur is alone, and starts this perilious adventure at midnight.\n";
 	cout << "After crossing a snowy desert, he gets to see the Demon's island.  Arthur is about to encounter ten different obstacles and the sooner he is scuccessful overcoming them, the more bonus points he gets.\n";
