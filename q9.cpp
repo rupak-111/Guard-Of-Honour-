@@ -1,15 +1,18 @@
 #include "head.h"
 using namespace std;
-
+//this list is the sudoku list
 char list[82] = { "UVW7ZSMTX72XVU9Z51891W26V7U9S32VYW6868Y1MW342254ZXUSMYVYM31T68WSXZ95ZYU4W3Z67VT1M" };
 
+//declare funciton head
 void AnswerChecking(void);
 void Show(void);
+
+//some variable to check whether it has answer or not
 bool S1 = false;
 bool T2 = false;
 bool U3 = false;
-bool V4= false;
-bool W5= false;
+bool V4 = false;
+bool W5 = false;
 bool X6 = false;
 bool Y7 = false;
 bool Z8 = false;
@@ -21,19 +24,23 @@ void q9(void)
 	cout << "As Arthur moves forward, he sees a giant lake. The abnormal thing about the lake is it does not contain water; it is just filled with boiling blood! Arthur cannot swim accross this boiling lake.\n";
 	cout << "So he looks around to find something helpful to him. To his surprise, he finds an old boat. He immediately jumps onto it, but as he tries to start the engine, he realises that the engine only starts after solving a sudoku question.\n";
 	cout << "Help Arthur solve the sudoku so he can start the engine and cross the deadly lake.\n" << endl;
-	
-	output out = {};
+
+
 	cout << "You are now going to solve a sudoku\nThe sudoku is as follows:\n";
+	//to have show of the list
 	Show();
 	cout << "To solve the question, type the character and the number together to solve\nlet me give you an example, the W on the sudoku is actually 5, type 'W5' to see what will happened?\n";
+	//to check whether all answer has answered or not
 	while (!(S1 && T2 && U3 && V4 && W5 && X6 && Y7 && Z8 && M9))
 	{
+		//for checking answer
 		AnswerChecking();
+		//show the list with solved numbers
 		Show();
 	}
 }
 
-
+//to show the sudoku
 void Show(void)
 {
 	for (int i = 0; i < 81; i++)
@@ -51,13 +58,14 @@ void Show(void)
 
 void AnswerChecking(void)
 {
-	char var,remove;
+	char var, remove;
 	int numbers;
-	cin >> var>>numbers;
+	cin >> var >> numbers;
+	//switch the option to see if it answer correctly
 	switch (var)
 	{
 	case 's':
-	case 'S': 
+	case 'S':
 		if (numbers == 1)
 		{
 			cout << "Yes, S is 1!";
@@ -173,10 +181,10 @@ void AnswerChecking(void)
 		else
 			cout << "Sorry, you get wrong, try again\n";
 		break;
+		//if the user type a incorrect character, will tell him to input again
 	default:
-			cout << "The character "<<var<< " doesn't exist, try a correct one\n";
+		cout << "The character " << var << " doesn't exist, try a correct one\n";
 		break;
 	}
 }
-
 
