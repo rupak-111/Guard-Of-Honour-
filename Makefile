@@ -51,7 +51,7 @@ readdata.o: readdata.cpp head.h
 head.o: head.cpp head.h
 	g++ $(FLAGS) -c $<
   
-game: main.o Bonus_shop.o BOSS.o head.o load_save_file.o proceed_game_stage.o q1.o q2.o q3.o q4.o q5.o q6.o q7.o q8.o q9.o q10.o readdata.o
+game: main.o Bonus_shop.o BOSS.o head.o load_save_file.o proceed_game_stage.o q1.o q2.o q3.o q4.o q5.o q6.o q7.o q8.o q9.o readdata.o q10.o 
 	g++ $(flags) $^ -o $@
   
 clean:
