@@ -70,10 +70,14 @@ Coding elements
   6. Getinformations() function, which will be output the information page at the request of the player.
   
 3. Dynamic memory management
-  Everything that needs to use will be generated and declared at the very beginning of the program. And has reserved the places of that data use. Besides that, the program will not use any new (c++) or malloc (c) function so that the dynamic memory will not be used and the free function will not be used.
+  Use dynamic space for output the information of the character in showing the information of the character.
   
 4. File input/output(e.g. for loading/saving game status)
   The program can store all the status of the process into a file when the player requested, where this flies can be used in the game and continue next time.
   
 5. program codes in multiple files
   The main.cpp will be the driver program, while in a stage of gaming will be separated into different files and will be called by main.cpp when it is used.
+
+
+Compile Instructions
+Run make game to compile the game. Do ./game to start the game
