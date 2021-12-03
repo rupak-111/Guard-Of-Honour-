@@ -3,42 +3,47 @@
 #include <time.h>
 #include<iomanip>
 #include<string>
+//variable use in global, where declare at head.cpp
+extern int Bonus ;
+extern  int live ;
+extern bool bonus_double ;
+extern int stage_level ;
+extern Q4 question4;
+extern bool complete4;
+extern bool complete6;
+extern  bool complete7;
+extern int Q6;//have return value
+extern int Q7;//have return value
 
-static int Bonus;
-static int live=3;
-static bool bonus_double = false;
-   
-int Q2_ans=100;
-string Q3_ans="DCAB"
+//use static to means it will remin unchange in all the file,as it will declare a new one for each file
+static int Q2_ans = 100;
+static std::string Q3_ans = "DCAB";
+struct Q4 {
+    int x;
+    int y;
+};
+static const int Q5_int = 9;
+static const char Q5_char = 'm';
+static std::string Q5_string = "BETA";
 
-struct Q4{int x, int y};//have return value
-
-int Q5_int=9;
-char Q5_char='m';
-string Q5_string="BETA";
-    
-int q6;//have return value
-
-int q7;//have return value
-
-
-
-
-
+//funciton head
 void proceed_game_stage(int gamenumber);
 void q1(void);
 int q2(void);
-string q3(void);
-Q4 q4(void);
+std::string q3(void);
+void q4(void);
 void q5(void);
 int q6(void);
 int q7(void);
 void q8(void);
 void q9(void);
 void q10(void);
-
+int load_save_file(std::string s);
+void readdata(void);
 void bonus_system(void);
+void BOSS(void);
 
+//funcitons for use to check some answer is valid or not
 static int Checkinteger_positive(void)
 {
     int numbers;
@@ -47,36 +52,41 @@ static int Checkinteger_positive(void)
     {
         if (std::cin >> numbers)
         {
-            if(numbers>0)
+            if (numbers > 0)
                 return numbers;
             else
             {
                 std::cout << "Type positive integers number please ";
             }
         }
-        else if(std::cin.fail())
+        else if (std::cin.fail())
         {
             std::cout << "Please enter a positive integer: ";
             std::cin.clear();
             std::cin.ignore(80, '\n');
         }
     }
+    return numbers;
 }
 
-int check_integer(int ans)
+static int check_integer(int ans)
 {
-    cout << "Please enter an integer. \n";
+    std::cout << "Please enter an integer. \n";
     int answer;
     while (true)
+    {
+        if (std::cin >> answer)
         {
-            if (cin >> answer)
-            {
-                if(answer==ans)
-                    break;
-            cout << "Incorrect. Try again.\n";                 
-            }
-            cout << "Please enter an integer. \n";
-            std::cin.clear();
-            std::cin.ignore(80, '\n');
+            if (answer == ans)
+                break;
+            std::cout << "Incorrect. Try again.\n";
         }
+        std::cout << "Please enter an integer. \n";
+        std::cin.clear();
+        std::cin.ignore(80, '\n');
+    }
+    return answer;
 }
+
+
+
