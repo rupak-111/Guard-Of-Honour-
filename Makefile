@@ -25,7 +25,7 @@ q8.o: q8.cpp head.h
 	  g++ $(FLAGS) -c $<
   
 q9.o: q9.cpp head.h
-	  g++$(FLAGS) -c $<
+	  g++ $(FLAGS) -c $<
   
 q10.o: q10.cpp head.h
 	  g++ $(FLAGS) -c $<
