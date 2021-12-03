@@ -12,6 +12,8 @@ int q7(void)
 
     srand(time(0));
     int random, answer;
+    
+    //random question number generation
     random = (rand() % 3) + 1;
     cout << "You have to remain very focus while tackling the challenge!!\n\n";
 
@@ -19,7 +21,7 @@ int q7(void)
 
     cout << "Simplify the following equation:\n";
 
-
+    //first question
     if (random == 1)
     {
         cout << "\nQ.  (-5 x 4 + 47) / 3 + 1\n\n    = ";
@@ -27,6 +29,7 @@ int q7(void)
         cout << "Congratulations! You got the correct answer.\n\n";
     }
 
+    //second question
     if (random == 2)
     {
         cout << "\nQ.  (5 x 1+ 2 x 3 - 7 x 0 + 11) / 2\n\n   = ";
@@ -34,6 +37,7 @@ int q7(void)
         cout << "Congratulations! You got the correct answer.\n\n";
     }
 
+    //third question
     if (random == 3)
     {
         cout << "\nQ.   1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 0\n\n   = ";
@@ -42,3 +46,4 @@ int q7(void)
     }
     return answer;
 }
+//end of the file
