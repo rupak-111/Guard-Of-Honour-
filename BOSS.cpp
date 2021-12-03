@@ -52,5 +52,5 @@ void BOSS(void)
 	cout << "Arthur knows this and he is grateful from the bottom of his heart for your help. Arthur has found the sword and now he is ready to return it to his king.\n" << endl;
 	cout << endl;
 	cout << "         THE END  \n\n\n";
-	cout << "Thank you for playing this game. We hope you had a great time playing it! :) //ending
+	cout << "Thank you for playing this game. We hope you had a great time playing it! :)" << endl; //ending
 }
