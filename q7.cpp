@@ -8,8 +8,8 @@ int q7(void)
     cout << "But a weakness of this dog is that it is blind, so Arthur doesn't move and stays quiet. After remaining idle for almost an hour, he sees something on the dog's neck./n";
     cout << "He focuses his vision on it. It is a flag, and it flag says \" Answer this question if you want to make this dog asleep. \"\n";
     cout << "Help Arthur to make the dog fall asleep.\n\n" << endl;
-    
-    output out;
+
+
     srand(time(0));
     int random, answer;
     random = (rand() % 3) + 1;
@@ -23,21 +23,21 @@ int q7(void)
     if (random == 1)
     {
         cout << "\nQ.  (-5 x 4 + 47) / 3 + 1\n\n    = ";
-        answer=check_integer(10);
+        answer = check_integer(10);
         cout << "Congratulations! You got the correct answer.\n\n";
     }
 
     if (random == 2)
     {
         cout << "\nQ.  (5 x 1+ 2 x 3 - 7 x 0 + 11) / 2\n\n   = ";
-        ans=check_integer(11);
+        answer = check_integer(11);
         cout << "Congratulations! You got the correct answer.\n\n";
     }
 
     if (random == 3)
     {
         cout << "\nQ.   1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 0\n\n   = ";
-        answer=check_integer(45);
+        answer = check_integer(45);
         cout << "Congratulations! You got the correct answer.\n\n";
     }
     return answer;
