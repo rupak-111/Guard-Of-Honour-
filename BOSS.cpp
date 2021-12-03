@@ -2,7 +2,8 @@
 using namespace std;
 int BOSS(void)
 {
-	//stage1
+	cout << "Arthur has successfully overcome all the obstacles to get to the monster. Now only thing that is left is to kill the monster and get back the sword.\n";
+	cout << "Will he able to do it? Help Arthur on this final quest:\n\n";
 	//introduction
 	
 	//code of stage1
