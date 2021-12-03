@@ -3,6 +3,11 @@
 #include <time.h>
 #include<iomanip>
 #include<string>
+//declare a structure of Q4
+struct Q4 {
+    int x;
+    int y;
+};
 //variable use in global, where declare at head.cpp
 extern int Bonus ;
 extern  int live ;
@@ -18,10 +23,7 @@ extern int Q7;//have return value
 //use static to means it will remin unchange in all the file,as it will declare a new one for each file
 static int Q2_ans = 100;
 static std::string Q3_ans = "DCAB";
-struct Q4 {
-    int x;
-    int y;
-};
+
 static const int Q5_int = 9;
 static const char Q5_char = 'm';
 static std::string Q5_string = "BETA";
@@ -87,6 +89,7 @@ static int check_integer(int ans)
     }
     return answer;
 }
+
 
 
 
