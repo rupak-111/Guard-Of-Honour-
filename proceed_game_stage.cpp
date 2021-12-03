@@ -34,7 +34,7 @@ void proceed_game_stage(int gamenumber)
 		bonus=10;
 	else
 	{
-		cout<<"Since you have waste a lot of time in this level, you lose a live"
+		cout<<"Since you have wasted a lot of time in this level, you lose a live"
 		live-=1;
 	}
 	if (bonus_double)
