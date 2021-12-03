@@ -31,7 +31,8 @@ games include
 4. finding the difference
   we will have a whole screen of patterns, find out the special one and input its coordinate as soon as possible!
   
-5. Brainteaser    The player is required to answer all the brain teaser questions to proceed ahead
+5. Brainteaser    
+  The player is required to answer all the brain teaser questions to proceed ahead
   
 6. find similarity
   There will be a list of words on the screen and the player need to find the commonplace between these elements element.
@@ -48,26 +49,24 @@ games include
 10.gambling element/ special events
   During the adventure, the player might have a chance to tackle some events, while different choices the player chooses, may lead to a completely different ending.
   
-11. Finishing coding
-  In this stage, the user needs to apply their programming skills to finish a coding exercise.
+11. Boss level
+  In this stage, the user need to beat the monster through the previous question.
 
 
 
 Coding elements
 
 1. Generation of random game sets or events
-  For events like finding differences, counting numbers and the decoding stage question will be generated randomly.
+  For events like finding differences, counting numbers and find similarity question will be generated randomly.
   In the lucky game, the action of the enemy choose may be random.
-  For some events like MCQ and typing test, questions will be generated from ten set questions randomly
+
   
 2. Data structures for storing game status
   Inside the information page, the following will be shown
   1. the life remain, in the form of integer
   2. Number of stages, in the form of integer
-  3. Name of character, which is James Gunn, in the form of string
-  4. Location of this stage, in the form of string
-  5. A backpack, in the form of structure 
-  6. Getinformations() function, which will be output the information page at the request of the player.
+  3. Bonus point of the character, in the form of int
+  4. readdata() function, which will be output the information page at the request of the player.
   
 3. Dynamic memory management
   Use dynamic space for output the information of the character in showing the information of the character.
