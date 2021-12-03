@@ -3,6 +3,7 @@ using namespace std;
 
 int q6()
 {
+    //guidelines for users
     cout << "Many congrats to you! Arthur was able to answer all the questions and kill the creature. He, then successfully comes out of the cave but due to his lack of energy, he faints out.\n";
     cout << "Arthur was luckily found by a group of boar hunters. They carefully lift him up and take him back to their village. After passing out for a day Arthur wakes up surrounded by humans.\n";
     cout << "After sharing his experience of the journey with them, he normally strolls around the village. After walking for 10 minutes, he sees some children playing under a tree.\n";
@@ -23,6 +24,7 @@ int q6()
 
     int random, input, times = 0;
     bool m1 = false, m2 = false, m3 = false;
+    //random question generation
     while (times++ < 3)
     {
         if (times == 1)
@@ -51,6 +53,8 @@ int q6()
 
         cout << "\n\nGuess the common answer out of these words: (Hint: Refer to the answer options above for correct answer)\n\n";
         cout << "Question:\n\n";
+        
+        //first question
         if (random == 1)
         {
             cout << "Argentum        Sports       34       Bonjour\n" << endl;
@@ -78,6 +82,7 @@ int q6()
             m1 = true;
         }
 
+        //second question
         else if (random == 2)
         {
             cout << "Vitamin A       Bunny      Soup         Root\n\n";
@@ -104,6 +109,7 @@ int q6()
             m2 = true;
         }
 
+        //third question
         else if (random == 3)
         {
             cout << "Greece       Unmaterialistic theory      Stratification      Lyceum\n\n";
