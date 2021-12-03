@@ -1,16 +1,16 @@
 #include "head.h"
 using namespace std;
 
-output q6()
-{    
-    cout<< "Many congrats to you! Arthur was able to answer all the questions and kill the creature. He, then successfully comes out of the cave but due to his lack of energy, he faints out.\n";
-    cout<< "Arthur was luckily found by a group of boar hunters. They carefully lift him up and take him back to their village. After passing out for a day Arthur wakes up surrounded by humans.\n";
-    cout<< "After sharing his experience of the journey with them, he normally strolls around the village. After walking for 10 minutes, he sees some children playing under a tree.\n";
-    cout<< "Out of curiousity, he decides to join them. As Arthur does not know how to play this game, he seeks out for your help to complete the game. \n";
+int q6()
+{
+    cout << "Many congrats to you! Arthur was able to answer all the questions and kill the creature. He, then successfully comes out of the cave but due to his lack of energy, he faints out.\n";
+    cout << "Arthur was luckily found by a group of boar hunters. They carefully lift him up and take him back to their village. After passing out for a day Arthur wakes up surrounded by humans.\n";
+    cout << "After sharing his experience of the journey with them, he normally strolls around the village. After walking for 10 minutes, he sees some children playing under a tree.\n";
+    cout << "Out of curiousity, he decides to join them. As Arthur does not know how to play this game, he seeks out for your help to complete the game. \n";
 
-    int bounus =0;
+    int bonus = 0;
     srand(time(0));
-    
+
     cout << "You will be provided with four words describing the characteristics of the answer. You will need to identify the potential answer from the options given below: \n" << endl;
     cout << "The possible answers are as follows: (\nNote: If you think the answer is Raddish, press: Key 5\n)" << endl;
     cout << " 1 - Rafael Nadal           2 - Lionel Messi                3 - Pele\n";
@@ -21,8 +21,8 @@ output q6()
     cout << "\nThe correct answer is 10 (Orange) because: \n\nOrange is a fruit. \nOrange is also a colour. \nOrange is a rich source of vitamin C. \nThe word orange cannot be rhymed in poetry.";
 
 
-    int random,input,times=0;
-    bool m1=false, m2=false, m3=false;
+    int random, input, times = 0;
+    bool m1 = false, m2 = false, m3 = false;
     while (times++ < 3)
     {
         if (times == 1)
@@ -73,7 +73,7 @@ output q6()
                 cout << "\nHe plays football.";
                 cout << "\nHe is 34 years old.";
                 cout << "\nHe is currently playing for Paris in France.";
-                cout << "\nArthur cannot leave the game without getting it correct. So, please try again to help him get a correct answer." << endl               
+                cout << "\nArthur cannot leave the game without getting it correct. So, please try again to help him get a correct answer." << endl;
             }
             m1 = true;
         }
@@ -125,16 +125,15 @@ output q6()
                 cout << "\nAristotle is the pioneer of Metaphysics- abstract theory with no basis in reality.";
                 cout << "\nAristotle was the first person to categorize animal into different hierarchy.";
                 cout << "\nAristotle established a school of philosophy called Lyceum in Macedonia, Greece.\n";
-                cout << "Arthur cannot leave the game without getting it correct. So, please try again to help him get a correct answer.\n";<< endl;
-                
+                cout << "Arthur cannot leave the game without getting it correct. So, please try again to help him get a correct answer.\n"<< endl;
+
             }
             m3 = true;
         }
     }
-    out.int=input;
-    if(input==2||input==6||input==8)
-        bonus+=20;
-    Bonus+=bonus;
-    cout<<"You answer key in this stage is "<<input<<endl;
+    if (input == 2 || input == 6 || input == 8)
+        bonus += 20;
+    Bonus += bonus;
+    cout << "You answer key in this stage is " << input << endl;
     return input;
 }
