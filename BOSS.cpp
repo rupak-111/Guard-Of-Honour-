@@ -9,7 +9,7 @@ void BOSS(void)
 	check_integer(100);//to check whether the answer input is 100 or not 
 	cout << "Arthur is successful in opening the door.\n\n";//try to change it to more smooth
 
-	cout << "As soon as the Arthur enters the door, he sees an enormous giant with its size as big as the Empire State Building. Arthur is terrified, but he knows that he has to get the sword at any cost.\n";
+	cout << "As soon as Arthur enters the door, he sees an enormous giant with its size as big as the Empire State Building. Arthur is terrified, but he knows that he has to get the sword at any cost.\n";
 	cout << "He is ready to sacrifice his life for the king, but he also does not wanna die. So, Arthur needs your help again. Please help Arthur to complete the next stage:\n";
 	cout << "Spelling out the name of the monster will reduce his power by 30 percent. So, in this stage, you have to coordinate with Arthur to find the name of the monster.\n";
 	cout << "But what is the name of the monster? Try to remember the overall journey of Arthur: \n\n" << endl;
