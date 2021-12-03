@@ -7,7 +7,7 @@ This team has two members: KOIRALA Rupak, 3035729966, Computer Engineering
 
 A description of your game and introduce the game rules:
 
-It is an adventurous game. the story plot- the king's valuable as well as the magical sword is stolen by a demon, nobody was successful to get back the sword to the king. now king trusted  James Gunn to get it back. James Gunn is the main player of the game. Arthur seeks out on the journey to get back the king's sword, and he does not have any idea, what he will encounter about the journey because those who tried, nobody came back alive. James is alone. after completing every challenge, the user is provided with hints (some of them are useless). now he sets out at midnight for the adventure. Some messages can be put into the backpack. 
+It is an adventurous game. the story plot- the king's valuable as well as the magical sword is stolen by a demon, nobody was successful to get back the sword to the king. Now king trusted  Arthur to get it back. Arthur is the main player of the game. He seeks out on the journey to get back the king's sword, and he does not have any idea, what he will encounter about the journey because those who tried, nobody came back alive. James is alone. after completing every challenge, the user is provided with hints (some of them are useless). Now he sets out at midnight for the adventure. Some messages can be put into the backpack. 
 After crossing a cursed forest and a violent Nimbo river, he gets to see the Demon's island. Here, he encounters different genetically modified animals/ zombies. He has killed all of them to get to the Demon. There are 10 checkpoints. The final challenge will be to fight the Demon and get back the sword. 
 
 Game Rules:(features?)
