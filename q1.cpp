@@ -3,29 +3,29 @@ using namespace std;
 
 void q1(void)
 {
-    cout<< "Arthur is set out on this treachorous journey to get back the sword of the king. As soon as he crosses the turbulent river, he is stopped by a human-sized cockroach.";
+    cout << "Arthur is set out on this treachorous journey to get back the sword of the king. As soon as he crosses the turbulent river, he is stopped by a human-sized cockroach.";
     cout << "\nArthur can only kill the cockroach by beating it on RockScissorsPaper Game.";
-    cout<<"\nHelp Arthur to win this level. Remember, the faster you beat the cockroach, the more health bonus Arthur gets:"; 
+    cout << "\nHelp Arthur to win this level. Remember, the faster you beat the cockroach, the more health bonus Arthur gets:";
 
-    output out={};
-    int trial=3;
-    int bonus=0;
-    cout<<"You can get 10 bonus if win, 5 bounu point if lose and 0 point for lose";
-    while(trial--)
+
+    int trial = 3;
+    int bonus = 0;
+    cout << "You can get 10 bonus if win, 5 bounu point if lose and 0 point for lose";
+    while (trial--)
     {
         srand(time(NULL));
-        cout<<"It is the "<<3-trial<<" time for try";
-        cout << "For \"Rock\" press - \" 1\""<< endl << "For \"Paper\" press - \" 2 \"" << endl << "For \"Scissors\" press - \"3\"" << endl << "Choose your option: ";
-        
+        cout << "It is the " << 3 - trial << " time for try";
+        cout << "For \"Rock\" press - \" 1\"" << endl << "For \"Paper\" press - \" 2 \"" << endl << "For \"Scissors\" press - \"3\"" << endl << "Choose your option: ";
+
         int choiceOfYou;
         cout << endl;
-    
+
         int choiceOfComputer = (rand() % 3) + 1;
-        
-        
-        while(true)
+
+
+        while (true)
         {
-            if(cin>>choiceOfYou&&choiceOfYou<4&&choiceOfYou>0)
+            if (cin >> choiceOfYou && choiceOfYou < 4 && choiceOfYou>0)
                 break;
             cout << "Input is incorrect. Please try again" << endl;
             std::cin.clear();
@@ -38,7 +38,7 @@ void q1(void)
         else if (choiceOfYou == 3)
             cout << "You chose Scissors." << endl;
 
-    
+
         if (choiceOfComputer == 1)
             cout << "Computer chose Rock." << endl;
         else if (choiceOfComputer == 2)
@@ -46,12 +46,12 @@ void q1(void)
         else if (choiceOfComputer == 3)
             cout << "Computer chose Scissors." << endl;
         cout << endl;
-    
-    
+
+
         if (choiceOfYou == choiceOfComputer)
         {
             cout << "StaleMate!\n\n";
-            bonus+=5;
+            bonus += 5;
         }
         if (choiceOfYou == 1)
         {
@@ -60,16 +60,16 @@ void q1(void)
             else if (choiceOfComputer == 3)
             {
                 cout << "You Won!\n" << endl;
-                bonus+=10;
+                bonus += 10;
             }
         }
-    
+
         else if (choiceOfYou == 2)
         {
             if (choiceOfComputer == 1)
             {
                 cout << "You Won!\n" << endl;
-                bonus+=10;
+                bonus += 10;
             }
             else if (choiceOfComputer == 3)
                 cout << "You Lost!\n" << endl;
@@ -81,10 +81,11 @@ void q1(void)
             else if (choiceOfComputer == 2)
             {
                 cout << "You Won!\n" << endl;
-                bonus+=10;
+                bonus += 10;
             }
         }
     }
-    Bonus+=bonus;
-    cout<<"You gain "<<bonus<<" point in this stage\n";
+    Bonus += bonus;
+    cout << "You gain " << bonus << " point in this stage\n";
+    cout << "You now have " << Bonus << "point";
 }
